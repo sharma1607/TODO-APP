@@ -18,7 +18,6 @@ for index, todo in enumerate(todos_list):
         del st.session_state[todo]
         st.rerun()
 
-
 st.text_input(label="", key="todo", placeholder="add a todoo...",
               on_change=todos)
 
